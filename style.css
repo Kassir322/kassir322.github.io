@@ -47,7 +47,7 @@ body {
 /* ============= Thumbnail ============================== */
 
 .thumbnail {
-  height: 1074px;
+  height: 1100px;
 }
 
 .thubmnail__inner__upper {
@@ -55,6 +55,7 @@ body {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 50px;
 }
 
 .thumbnail__photo {
@@ -121,7 +122,8 @@ body {
 .btn {
   width: 100%;
   border-radius: 10px;
-  padding: 15px;
+  padding: 15px 30px;
+  font-size: 24px;
   text-decoration: none;
   display: flex;
   justify-content: space-between;
@@ -129,6 +131,10 @@ body {
 
 .icon {
   margin: auto 0;
+}
+
+.btn--23 {
+  width: 23%;
 }
 
 .btn--50 {
@@ -154,4 +160,53 @@ body {
   font-size: 36px;
   color: #c9c9c9;
   font-style: normal;
+}
+
+/* ============= Portfolio ============================== */
+
+h1 {
+  font-size: 48px;
+  color: #fff;
+  margin-bottom: 70px;
+}
+
+.portfolio {
+  height: 700px;
+}
+
+.card__container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.card--portf {
+  margin-bottom: 60px;
+}
+
+.more {
+  font-size: 32px;
+  font-weight: 500;
+  color: #c9c9c9;
+  text-align: center;
+  max-width: 360px;
+}
+
+.portfolio__card {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card__img {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.portfolio__card__text {
+  font-size: 36px;
+  font-weight: 600;
+  margin: 0 auto;
 }
