@@ -512,4 +512,8 @@ h1 {
   .btn--shadow .icon {
     display: none;
   }
+
+  .btn {
+    font-size: 22px;
+  }
 }
